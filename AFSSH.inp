@@ -1,0 +1,26 @@
+1                          !! iflow - 1 - serial; 2 - parallel; 3 - averages
+80                         !! iproc - max number of jobs running at a time
+50                         !! iparallel - number of jobs to parallelize
+120                        !! iwait
+1000                        !! N_traj - number of trajectories
+100.d0                   !! dtc
+0.025d-15                  !! dtq
+20000.d0                    !! total_time (*hbar/kT)
+0                          !! iwrite: 1 - writes output_cl,output_qm
+1                          !! nstep_write - if iwrite=1, write output after every $nstep_write steps
+1                         !! nstep_avg - averaging frequency
+1                          !! idistribution - 1-classical, 0-Wigner (0 not implemented yet)
+1                          !! flag_frust - 0: reverse velocity, 1 - do nothing on frustrated hop. 0 recommended
+0                          !! flag_ortho - 1: orthogonalized overlap matrix
+100.1d0                    !! energy_cutoff (cm-1) energy conservation threshold at each time-step
+1                          !! nclass - number of classical d.o.f.
+31                         !! nquant - number of orbitals
+15                         !! n_el - number of electorns
+9.5d-4                     !! temperature (au)
+4.d-2                     !! band_width (au)
+1.d-4                      !! gama_coup (au)
+1                          !! iforward: 1- left to right, 0 - right to left - not used
+0                          !! icollapse: 1 - A-FSSH, 0 - FSSH
+1                          !! ifriction: 1 - random forces (Langevin dynamics)
+1729 3141                  !! seed for random number
+x
